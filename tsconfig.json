@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "watch": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+            "@api/*": ["./lib/api/*"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
